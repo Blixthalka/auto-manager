@@ -1,7 +1,7 @@
 
 var questions;
 
-fetch('/questions.json')
+window.onload = fetch('/questions.json')
     .then((response) => {
         return response.json()
     })
