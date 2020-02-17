@@ -31,6 +31,7 @@ function addListener() {
         var tgt = e.target;
         if (tgt.tagName.toUpperCase() == "LI") {
             tgt.parentNode.removeChild(tgt);
+            checkHelpText()
         }
     });
 }
