@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Manager</title>
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+    <main class="wrapper">
+        <section id="question-container" class="main-container ">
+            <h1 id="main-question"></h1>
+            <div class="button-container">
+                <button class="generate-btn" onclick="saveQuestion()">Save</button>
+                <button class="generate-btn" onclick="newQuestion()">Skip</button>
+            </div>
+        </section>
+        <section class="main-container saved-questions-container">
+            <ul id="saved-questions-list" class="slide-fade">
+            </ul>
+            <p id="list-info-text">Save questions to me!</p>
+        </section>
+        <section id="credits-container" class="main-container">
+            <p>Thanks to <a href="https://github.com/VGraupera/1on1-questions">this</a> github project for providing the questions.</p>
+            <p>Follow me on <a href="https://twitter.com/blixthalka">Twitter</a> if you want. :)</p>
+        </section>
+    </main>
+</body>
+
+</html>
