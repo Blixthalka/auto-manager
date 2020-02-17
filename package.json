@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node-sass --omit-source-map-url main.scss -o public/ && cp -r index.html main.js woff public"
+    "build": "node-sass --omit-source-map-url main.scss -o public/ && cp -r index.html questions.json main.js woff public"
   },
   "author": "Emil",
   "license": "ISC",
